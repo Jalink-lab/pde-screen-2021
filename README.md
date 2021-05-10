@@ -7,8 +7,8 @@ This repository contains the code accompanying [this paper](https://www.google.c
 
 # Layout
 * Running `analyse_data.py` on the raw data produces the results.
-* `PDE_Analysis` contains the functions for analysis of the data.
-* `PDE_Display` contains the functions for display of the results.
+* `PDE_Analysis` contains the functions for the analysis of the data.
+* `PDE_Display` contains the functions for displaying the results.
 * The folder `Figures` contains the jupyter notebooks that use the result of `analyse_data.py` to generate the figures.
 
 # How to setup the environment
