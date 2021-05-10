@@ -1,0 +1,21 @@
+name: PDE_Screening
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - conda-forge::python=3.9
+  - pytorch::pytorch
+  - conda-forge::matplotlib
+  - conda-forge::notebook
+  - conda-forge::pandas
+  - conda-forge::seaborn
+  - conda-forge::tifffile
+  - conda-forge::scipy
+  - conda-forge::pip
+  - pip:
+      - cellpose
+
+
+
+
+
