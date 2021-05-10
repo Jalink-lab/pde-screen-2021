@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/366154383.svg)](https://zenodo.org/badge/latestdoi/366154383)
 # Dynamic FRET-FLIM based screens of signal transduction pathways: a feasibility study
 by: Rolf Harkes, Olga Kukk, Sravasti Mukherjee, Jeffrey Klarenbeek, Bram van den Broek, Kees Jalink
 
