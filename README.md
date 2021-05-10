@@ -1,7 +1,7 @@
-Dataset: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4746173.svg)](https://doi.org/10.5281/zenodo.4746173)
 # Dynamic FRET-FLIM based screens of signal transduction pathways: a feasibility study
 by: Rolf Harkes, Olga Kukk, Sravasti Mukherjee, Jeffrey Klarenbeek, Bram van den Broek, Kees Jalink
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4746173.svg)](https://doi.org/10.5281/zenodo.4746173)
 
 This repository contains the code a accompanying [this paper](https://www.google.com) and has been used for all analysis and generation of the figures.
 
