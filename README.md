@@ -1,12 +1,11 @@
 # Dynamic FRET-FLIM based screens of signal transduction pathways: a feasibility study
 by: Rolf Harkes, Olga Kukk, Sravasti Mukherjee, Jeffrey Klarenbeek, Bram van den Broek, Kees Jalink
 
+This repository contains the code accompanying [this paper](https://www.google.com) and has been used for all analysis and generation of the figures. All raw data can be found in [this zenodo repository](https://zenodo.org/record/4746173).
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4746173.svg)](https://doi.org/10.5281/zenodo.4746173)
 
-This repository contains the code accompanying [this paper](https://www.google.com) and has been used for all analysis and generation of the figures.
-
 # Layout
-* All raw data can be found in [this zenodo repository](https://zenodo.org/record/4746173).
 * Running `analyse_data.py` on the raw data produces the results.
 * `PDE_Analysis` contains the functions for analysis of the data.
 * `PDE_Display` contains the functions for display of the results.
