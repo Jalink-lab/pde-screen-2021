@@ -39,7 +39,6 @@ REDO = False
 
 # set paths to input and output of data and if they have foskolin as endpoint callibration
 forskendpoints = [True, True, False, True, True, False]
-
 paths = [Path('2019', '05', '02', 'chemical'),
          Path('2019', '11', '07', 'chemical'),
          Path('2019', '12', '05', 'caged'),
@@ -64,7 +63,7 @@ for outpath in outpaths:
     outfiles = []
     channels = []
     curr_path = Path(outpath, 'intensity_data')  # this is the folder with the _mean intensity data
-    lbl_path = Path(outpath, 'labelmap_data')  # this is the folder with the _mean intensity data
+    lbl_path = Path(outpath, 'labelmap_data')  # this is the folder with the _labelmap data
     for file in curr_path.iterdir():
         if file.name[-9:] == '_mean.tif':
             infiles.append(file)
@@ -87,7 +86,7 @@ for ct, outpath in enumerate(outpaths):
         txt_line = txt_line.rstrip()  # remove all spaces and returns at the end of the line
         layout.append(txt_line.split(", "))
     all_data = pd.DataFrame()
-    for txt_line in layout:  # each condition
+    for txt_line in layout:
         for i in range(1, len(txt_line)):  # each CONDITION, so, the two duplicate wells together
             fitfile = Path(results_file.parent, txt_line[i] + "_fit.csv")
             if fitfile.exists() and not REDO:
