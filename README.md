@@ -12,7 +12,6 @@ This repository contains the code accompanying [this paper](https://www.google.c
 * The folder `Figures` contains the jupyter notebooks that use the result of `analyse_data.py` to generate the figures.
 
 # How to setup the environment
-We have used [PyCharm](https://www.jetbrains.com/pycharm/) and [Miniconda](https://docs.conda.io/en/latest/miniconda.html) to write and execute the code. 
 To create an environment with all the packages required you can run the following command from a terminal `conda create -f environment.yml`.
 After the environment is created you can activate it with `conda activate PDE_Screening`.
 For more information on managing environments, see the [conda documentation](https://docs.conda.io/projects/conda/en/4.6.1/user-guide/getting-started.html#managing-envs).
