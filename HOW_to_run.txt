@@ -1,0 +1,13 @@
+Example: running from SPYDER in ANACONDA environment
+
+1. Install environment from a conda prompt (environment.yml should be in path):
+->conda env create -f environment.yml
+2. In anaconda, select environment PDE_screening.
+3. When done, start up Spyder.
+4. Load analyse_data.py
+5. Inspect settings: 
+--make sure the ROOT_PATH (line 34) points to a dataset.
+--Idem for the WRITE_PATH (line 36)
+--Set switch REDO to True to overwrite possible prior results (line 38)
+6. Press Run Button.
+ 
